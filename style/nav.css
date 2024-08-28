@@ -60,6 +60,25 @@ nav{
     font-size: 18px;
     transition: color 0.15s;
 }
+.logo h4::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--primary-color);
+    border-left:2px solid #ff4321 ;
+    animation: typing 4s steps(11) infinite;
+}
+@keyframes typing{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
 ul{
     display: flex;
     align-items: center;
