@@ -59,6 +59,7 @@ nav{
     color: var(--p-color);
     font-size: 18px;
     transition: color 0.15s;
+    position: relative;
 }
 .logo h4::before{
     content: "";
